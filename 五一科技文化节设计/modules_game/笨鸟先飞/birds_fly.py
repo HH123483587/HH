@@ -141,6 +141,7 @@ def birds_fly():
         clock.tick(60)  # 每秒执行60次
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                pygame.quit()
                 running = False
         '''如果触发键盘和鼠标事件并且小鸟状态不是死亡,则Bird.jump值为True并且初始化跳跃跟坠落速度'''
         if (event.type == pygame.KEYDOWN or event.type == pygame.MOUSEBUTTONDOWN) and not bird.dead:
@@ -154,6 +155,7 @@ def birds_fly():
             pygame.display.flip()
             time.sleep(1)
             pygame.quit()
+            running = False
         else:
             createMap()  # 创建地图
 

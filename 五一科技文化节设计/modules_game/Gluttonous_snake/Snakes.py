@@ -81,6 +81,7 @@ def main(window_x, window_y, snake_speed, max_speed):
     # 设置窗体参数
     window = [window_x, window_y]
     pygame.init()
+    pygame.font.init()
     pygame.display.set_caption('贪吃蛇')
     screen = pygame.display.set_mode(window)
     fps = pygame.time.Clock()
