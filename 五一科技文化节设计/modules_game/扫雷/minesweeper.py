@@ -1,8 +1,8 @@
-from modules_game.扫雷 import cfg
+import cfg
 import sys
 import time
 import pygame
-from modules_game.扫雷.modules import *
+from modules import *
 
 '''主函数'''
 

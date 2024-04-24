@@ -7,15 +7,15 @@
 import tkinter
 from tkinter import *
 from PIL import Image,ImageTk
-from modules_game.Gluttonous_snake import *
-from modules_game.Gluttonous_snake.Snakes import Snake, Snake_main
+from Gluttonous_snake import *
+from Gluttonous_snake.Snakes import Snake, Snake_main
 import pygame.mixer
-from modules_game.大球吃小球.big_eats_small import main
-from modules_game.笨鸟先飞.birds_fly import birds_fly
-from modules_game.开场视频设计 import video
-from modules_game.俄罗斯方块.Russia_block import tetris_start
+from 大球吃小球.big_eats_small import main
+from 笨鸟先飞.birds_fly import birds_fly
+# from modules_game.开场视频设计 import video
+from 俄罗斯方块.Russia_block import tetris_start
 
-from modules_game.扫雷.minesweeper import emain
+# from 扫雷.minesweeper import emain
 
 
 def give_label_with_picture(master, image) -> Label:
@@ -56,6 +56,6 @@ l5=Label(maintask,text='第三关').place(x=400,y=10)
 l6=Button(maintask,text='第三关',command=birds_fly).place(x=400,y=50)
 l7=Label(maintask,text='第四关').place(x=600,y=10)
 l8=Button(maintask,text='第四关',command=tetris_start).place(x=600,y=50)
-l9=Label(maintask,text='第五关').place(x=10,y=200)
-l10=Button(maintask,text='第五关',command=emain).place(x=10,y=250)
+# l9=Label(maintask,text='第五关').place(x=10,y=200)
+# l10=Button(maintask,text='第五关',command=emain).place(x=10,y=250)
 maintask.mainloop()

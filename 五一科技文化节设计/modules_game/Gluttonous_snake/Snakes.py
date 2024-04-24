@@ -19,16 +19,16 @@ class Snake(object):
                            [80, 40],
                            [60, 40],
                            [40, 40]]
-        self.snake_body1 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body2 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body3 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body4 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body5 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body6 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body7 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body8 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body9 = pygame.image.load(current_dir+'\image\snake_head.jpg')
-        self.snake_body10 =pygame.image.load(current_dir+'\image\snake_head.jpg')
+        self.snake_body1 = pygame.image.load(current_dir+'./image/贪吃蛇图/杭.png')
+        self.snake_body2 = pygame.image.load(current_dir+'./image/贪吃蛇图/州.png')
+        self.snake_body3 = pygame.image.load(current_dir+'./image/贪吃蛇图/科.png')
+        self.snake_body4 = pygame.image.load(current_dir+'./image/贪吃蛇图/技.png')
+        self.snake_body5 = pygame.image.load(current_dir+'./image/贪吃蛇图/职.png')
+        self.snake_body6 = pygame.image.load(current_dir+'./image/贪吃蛇图/业.png')
+        self.snake_body7 = pygame.image.load(current_dir+'./image/贪吃蛇图/技.png')
+        self.snake_body8 = pygame.image.load(current_dir+'./image/贪吃蛇图/术.png')
+        self.snake_body9 = pygame.image.load(current_dir+'./image/贪吃蛇图/学.png')
+        self.snake_body10 =pygame.image.load(current_dir+'./image/贪吃蛇图/院.png')
         self.snake_bodyli = [self.snake_body1, self.snake_body2, self.snake_body3, self.snake_body4, self.snake_body5, \
                              self.snake_body6, self.snake_body7, self.snake_body8, self.snake_body9, self.snake_body10]
         self.directon = 'Right'
