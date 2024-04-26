@@ -1,0 +1,8 @@
+maintask.title("主界面")
+maintask.geometry('800x500')  #设置整体大小
+canvas_maintask=tkinter.Canvas(maintask,width=1000,height=800)  #不知道？
+photo=get_image("../试验品.png",1000,800)
+canvas_maintask.create_image(400,150,image=photo)   #设置相应位置
+canvas_maintask.pack()
+Label(maintask,text='这是第一关').place(x=10,y=10)
+maintask.mainloop()
